@@ -5,7 +5,9 @@ public class Leibeigen extends Bauer {
 
     @Override
     public int zuVersteuern() {
-        // TODO
-        return 0;
+        int gesamtesEinkommen = super.zuVersteuern();
+        gesamtesEinkommen -= 12;
+        if (gesamtesEinkommen < 0) gesamtesEinkommen = 0;
+        return gesamtesEinkommen;
     }
 }

@@ -6,7 +6,6 @@ public class König extends Einwohner {
 
     @Override
     public int zuVersteuern() {
-        // TODO
         return 0;
     }
 }

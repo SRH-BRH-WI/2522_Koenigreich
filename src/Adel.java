@@ -5,7 +5,8 @@ public class Adel extends Einwohner {
 
     @Override
     public int steuer() {
-        // TODO
-        return 0;
+        int abzugeben = super.steuer();
+        if (abzugeben < 20) abzugeben = 20;
+        return abzugeben;
     }
 }
