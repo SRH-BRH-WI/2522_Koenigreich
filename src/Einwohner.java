@@ -1,4 +1,4 @@
-public class Einwohner {
+public abstract class Einwohner {
     private String name;
     private int einkommen;
 
